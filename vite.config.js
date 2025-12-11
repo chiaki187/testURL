@@ -1,7 +1,8 @@
-// vite.config.js
-export default {
-  base: './',          // ← これ超大事！
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: './',
   build: {
-    outDir: 'docs'     // ← ビルド結果を docs に出す
+    outDir: 'docs'
   }
-}
+})
